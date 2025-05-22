@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Walk : MonoBehaviour
 {
-    public float jumpForce = 1f;
+    public float jumpForce = 5f;
     public Transform groundCheck;
     public LayerMask groundLayer;
     public Rigidbody2D rb;
